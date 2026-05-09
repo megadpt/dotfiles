@@ -1,0 +1,48 @@
+[window]
+opacity = 0.9
+decorations = "None"
+padding = { x = 6, y = 6 }
+dynamic_padding = true
+dimensions = { columns = 40, lines = 20 }
+
+[font]
+
+normal = { family = "Terminus", style = "Regular" }
+size = 10
+
+[colors]
+[colors.primary]
+
+foreground = "#8b7a70"
+background = "#140c0b"
+
+[colors.normal]
+
+black = "#140c0b"
+red = "#ad4e34"
+green = "#6e855a"
+yellow = "#b58d45"
+blue = "#52748a"
+magenta = "#8e5c6e"
+cyan = "#5a857d"
+white = "#91949c"
+
+[colors.bright]
+black = '#3d3f45'
+red = '#c4654b'
+green = '#8ba375'
+yellow = '#cfab65'
+blue = '#6a8da3'
+magenta = '#a87788'
+cyan = '#77a199'
+white ='#bdc0c9'
+
+
+[colors.cursor]
+text = '#140c0b'
+cursor = '#8b7a70'
+
+[terminal]
+shell = "/usr/bin/zsh"
+
+

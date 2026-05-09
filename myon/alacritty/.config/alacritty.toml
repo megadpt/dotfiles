@@ -1,0 +1,19 @@
+[window]
+opacity = 1
+decorations = "None"
+padding = { x = 10, y = 10 }
+dynamic_padding = true
+dimensions = { columns = 40, lines = 20 }
+
+[font]
+
+normal = { family = "TerminessNerdFont", style = "Regular" }
+size = 10
+
+[terminal]
+shell = "/usr/bin/zsh"
+
+[general]
+import = [
+    "~/.config/alacritty/themes/themes/miasma.toml"
+]
